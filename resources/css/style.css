@@ -1,0 +1,228 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+}
+div {
+  display: block;
+  border: 1px solid blue;
+}
+.container {
+  max-width: 960px;
+  margin: 0px auto;
+}
+body {
+  font-family: Helvetica;
+  color: black;
+  background-color: white;
+}
+header {
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  padding-top: 1rem;
+}
+.nav-banner {
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-banner img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+.nav-banner span {
+
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem;
+  border: 1px solid blue;
+}
+nav li {
+  display: inline-block;
+  justify-content: center;
+  padding: 0rem 1rem;
+}
+li a {
+  color: white;
+  text-decoration: none;
+}
+.nav-mobile {
+  display: none;
+  margin: 1rem 2rem;
+}
+.banner .headline {
+  display: flex;
+}
+.headline {
+  margin-top: 10rem;
+  margin-right: -2rem;
+  justify-content: flex-end;
+  display: inline-block;
+}
+.headline h1 {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1.5rem 5rem;
+}
+.services {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0px;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 5rem;
+  margin: 0px 3rem;
+  height: 8rem;
+}
+.service img {
+  min-width: 3.5rem;
+  max-width: 5rem;
+  align-items: center;
+}
+.service span {
+  text-align: center;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+.about-container {
+  width: 35%;
+  margin: 0px 2.5%;
+}
+.about-container h2 {
+  background-color: cadetblue;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+footer {
+  background-color: azure;
+}
+.copyright {
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+}
+.copyright img {
+  height: 1.5rem;
+}
+.copyright span {
+  padding-left: 1rem;
+}
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+    margin: 0px auto;
+  }
+  header {
+    padding-top: 0px;
+    height: 22rem;
+  }
+  .headline {
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+  .headline h1 {
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+  }
+@media only screen and (max-width: 768px) {
+  header {
+    height: 17rem;
+    background-position: 20%
+  }
+  .nav-full {
+    display: none;
+  }
+  .nav-mobile {
+    display: block;
+  }
+  .headline {
+    margin-top: 9rem;
+    margin-right: 0rem;
+    width: 100%;
+    justify-content: center;
+    display: block;
+    align-items: center;
+  }
+  .headline .content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid blue;
+  }
+  .headline h1 {
+    text-align: center;
+    font-size: 1rem;
+    width: 100%;
+    padding: 1rem auto;
+    border: 1px solid blue;
+  }
+  .services {
+    padding: 2.23rem auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .service {
+    margin: 1.54rem auto;
+    font-size: 0.77rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px auto;
+  }
+  .about-container {
+    width: 100%;
+    margin: 0px auto;
+    padding-bottom: 4rem;
+  }
+  .about-container h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+  }
+  .about-container p {
+    margin-top: 1rem;
+    padding: 0 2.5%;
+    font-size: 0.77rem;
+  }
+  .copyright {
+    flex-direction: column;
+  }
+  .copyright span {
+    display: none;
+  }
+
+
+}
